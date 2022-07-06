@@ -11,7 +11,7 @@ public class Employee {
         setHourlyRate(hourlyRate);
     }
 
-    private void setBaseSalary(int baseSalary) {
+    public void setBaseSalary(int baseSalary) {
         if (baseSalary<=0)
             throw new IllegalArgumentException("Salary can't be 0 or negative");
         this.baseSalary = baseSalary;

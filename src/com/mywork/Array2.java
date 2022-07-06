@@ -37,6 +37,9 @@ public class Array2 {
      * @return : second maximum integer in the array
      * @throw : IllegalArgumentException if array length is not greater than 2 or equals to 2
      */
+
+
+
     private static int findSecondMax(int[] array) {
         if(array.length < 2) {
             throw new IllegalArgumentException("array length must be greater than 2 or equals to 2");

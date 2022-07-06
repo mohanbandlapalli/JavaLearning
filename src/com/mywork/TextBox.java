@@ -3,14 +3,18 @@ package com.mywork;
 public class TextBox {
 
     public String text;
-    public int x;
+    public static int x=10;
 
-    public void setText (String text){
-        this.text = text;
+    public static String setText (String text){
+        var textBox = new TextBox();
+        System.out.println(text);
+       return textBox.text = text;
     }
 
-    public void  clearText(){
-        this.text = "";
+    public static  void  clearText(){
+        var textBox = new TextBox();
+        textBox.text = "";
+
     }
 
     public void setX(int x){

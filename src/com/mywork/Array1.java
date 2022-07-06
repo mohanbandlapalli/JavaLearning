@@ -10,7 +10,9 @@ public class Array1 {
         for (int i = 0; i < x.length; i++) {
             if (min > x[i])
                 min = x[i];
+
         }
+
         System.out.println("min = " +min);
 
         int min2 = x[0];
