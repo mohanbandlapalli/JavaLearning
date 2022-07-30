@@ -10,9 +10,6 @@ public class MortgageReport {
         this.calculator = calculator;
     }
 
-
-
-
     public void printPaymentSchedule() {
         System.out.println();
         System.out.println("PAYMENT SCHEDULE");

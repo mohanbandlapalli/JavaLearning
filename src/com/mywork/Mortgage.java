@@ -8,6 +8,7 @@ public class Mortgage{
         byte years = (byte) Console.readNumber("Period (Years): ", 1, 30);
 
         var calculate = new MortgageCalculate(principal, annualInterest, years);
+
         new MortgageReport(calculate).printMortgage();
         new MortgageReport(calculate).printPaymentSchedule();
 
